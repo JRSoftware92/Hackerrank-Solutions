@@ -21,11 +21,11 @@ represented by UpperCase alphabet 'P' ( ascii value 80 ), empty spaces which can
 
 You have to mark the nodes explored while populating it into the stack and not when its expanded.
 
-Note 
+### Note 
 + The grid is indexed as per matrix convention 
 + The evaluation process follows iterative-DFS and not recursive-DFS.
 
-Populating Stack
+## Populating Stack
 
 In order to maintain uniformity across submissions, please follow the below mentioned order in pushing nodes to stack. If a node has all the 4 
 adjacent neighbors. Then,
@@ -40,11 +40,11 @@ so, if (1,1) has all its neighbors not visited, (0,1), (1,0), (1,2), (2,1) then,
 (2,1) - DOWN is inserted fourth (on top)
 So, (2,1) is the first to be popped from the stack.
 
-Constraints
+## Constraints
 
 1 <= r,c <= 40
 
-Output Format
+## Output Format
 
 Each cell in the grid is represented by its position in the grid (r,c). PacMan can move only UP, DOWN, LEFT or RIGHT. Your task is to print 
 all the nodes that you encounter while printing DFS tree. While populating the stack, the following convention must be followed.
@@ -58,11 +58,12 @@ In the above cell, LEFT and UP are invalid moves. You can either go RIGHT or DOW
 
 Print the number of nodes explored (E) in the first line. Starting from the source node, 'P' ( including it ), print all the nodes (r,c) 
 expanded using DFS each node in a new line (r,c) until the food node is explored.
-
+```
 E
 r c
 r1 c1
 ....
+```
 Then, print the distance 'D' between the source 'P' and the destination '.' calculated using DFS. D+1 lines follow, each line having a node 
 encountered between 'P' and '.' both included. D+1 lines essentially representing the path between source and the destination.
 
