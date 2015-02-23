@@ -12,7 +12,7 @@ to watch TV for when he starts so that he can plan his activites after watching 
 
 # Challenge
 
-You will be able to access Fredís laptop charging log by reading from the file ìtrainingdata.txtî. 
+You will be able to access Fred‚Äôs laptop charging log by reading from the file ‚Äútrainingdata.txt‚Äù. 
 The training data file will consist of 100 lines, each with 2 comma-separated numbers. The first 
 number denotes the amount of time the laptop was charged and the second denotes the amount of time 
 the battery lasted. The training data file can be downloaded here (this will be the same training 
