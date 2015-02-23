@@ -81,8 +81,7 @@ encountered between 'P' and '.' both included. D+1 lines essentially representin
 %%%%%%%%%%%%%%%%%%%%  
 ```
 ##Sample Output
-
-sample output
+Found at: https://s3.amazonaws.com/hr-filepicker/dfs.txt
 
 In this example, PacMan is at the position (3,9) and the food is at the position (5,1). DFS tree is printed starting from (3,9) until the 
 food node is expanded. The DFS path length between (3,9) and (5,1) is 32. All the nodes encountered between (3,9) and (5,1) both included is 
