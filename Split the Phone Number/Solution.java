@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.regex.*;
 public class Solution { public static void main(String[] args) {
-		String RESULT_STRING = "CountryCode=%s,LocalAreaCode=%s,Number=%s\n";
+	String RESULT_STRING = "CountryCode=%s,LocalAreaCode=%s,Number=%s\n";
     	String PHONE_REGEX = "\\d{1,3}(-|\\s)\\d{1,3}(-|\\s)\\d{4,10}";
     	String SPLIT = "-|\\s";
     	Pattern pattern = Pattern.compile(PHONE_REGEX);
